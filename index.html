@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin-left: 10px;
+            font-weight: bold;
+
+        }
+        h1{
+           color: rgb(139, 22, 91); 
+           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+           font-size:25;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Print numbers from 1 to 10</h1>
+<script>
+    console.log('Number 1 to 10');
+    for(let i=1; i<=10;i++)
+       {
+        document.write(i + "<br>");
+       }
+</script>
+<hr> 
+
+    <h1>Calculate the sum of numbers from 1 to 10</h1>Sum is =
+<script>
+        var sum =0;
+        for(var i = 1; i <= 10; i++)
+        {
+            sum += i;
+        }
+            document.write(sum)
+</script>   
+<hr>
+
+    <h1>Print the odd numbers less than 100</h1>
+<script>
+        for(var i= 1; i< 100; i+=2)
+        {
+            document.write(i+",")
+        }
+</script>
+</body>
+</html>
